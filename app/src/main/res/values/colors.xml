@@ -1,0 +1,9 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bgDark">#0F172A</color>
+    <color name="cardDark">#1E293B</color>
+    <color name="neonCyan">#06B6D4</color>
+    <color name="neonGreen">#10B981</color>
+    <color name="textGray">#94A3B8</color>
+</resources>
