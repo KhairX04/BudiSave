@@ -12,7 +12,6 @@ import android.widget.Button;
 public class AboutFragment extends Fragment {
 
     public AboutFragment() {
-        // Required empty public constructor
     }
 
     @Override
@@ -27,7 +26,6 @@ public class AboutFragment extends Fragment {
         btnGithub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // ⚠️ REPLACE THIS LINK WITH YOUR ACTUAL LIVE REPOSITORY URL!
                 String githubUrl = "https://github.com/KhairX04/BudiSave";
 
                 // 4. Create an implicit intent to push the system to open a web browser
