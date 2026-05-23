@@ -49,7 +49,6 @@ public class HomeFragment extends Fragment {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_dropdown_item, fuels);
         spinnerType.setAdapter(adapter);
 
-        // Track Weekly Live Oil Pricing Structure Conditions
         spinnerType.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
